@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333333;
+  /* Cambiado el color del texto general a gris oscuro */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #0033A0;
+  color: white;
+  /* Color del texto del encabezado permanece blanco */
+  padding: 20px;
+}
+
+.olympics-logo {
+  width: 150px;
+}
+
+nav.nav-menu {
+  background-color: #F5F5F5;
+  padding: 10px;
+  border-bottom: 2px solid #0033A0;
+}
+
+nav.nav-menu a {
+  color: #0033A0;
+  /* Color del texto de los enlaces en el menú de navegación */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+.intro,
+.about,
+.schedule,
+.venues,
+.athletes,
+.medals,
+.contact {
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #0033A0;
+  /* Color de los encabezados h2 permanece azul */
+}
+
+footer.App-footer {
+  background-color: #0033A0;
+  color: white;
+  /* Color del texto del pie de página permanece blanco */
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para imágenes */
+.intro-image,
+.about-image,
+.schedule-image,
+.venues-image,
+.athletes-image,
+.medals-image {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.carousel-container {
+  margin: 20px 0;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel-images img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.carousel-control {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.carousel-control.prev {
+  position: absolute;
+  left: 10px;
+}
+
+.carousel-control.next {
+  position: absolute;
+  right: 10px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+}
+
+.table-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: #333333;
+  /* Color del texto de las celdas de la tabla cambiado a gris oscuro */
+}
+
+.table-container th {
+  background-color: #0033A0;
+  color: white;
+  /* Color del texto de los encabezados de tabla permanece blanco */
+}
